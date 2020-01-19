@@ -6,7 +6,7 @@
 
 Name:           telepathy-gabble
 Version:        0.18.1
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        A Jabber/XMPP connection manager
 
 Group:          Applications/Communications
@@ -101,6 +101,12 @@ rm -f $RPM_BUILD_ROOT%{_docdir}/%{name}/*.html
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.18.1-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.18.1-3
+- Mass rebuild 2013-12-27
+
 * Tue Nov  5 2013 Debarshi Ray <rishi@fedoraproject.org> - 0.18.1-2
 - Explicitly state python in the shebang (Red Hat #987044)
 
